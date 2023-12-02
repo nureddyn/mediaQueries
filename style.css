@@ -1,0 +1,101 @@
+@media screen and (max-width: 3000px) {
+    body {
+        background: black;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        border: solid white 1px;
+        height: 80vh;
+        width: 80vw;
+    }
+    .image {
+        background-image: url('https://pm1.aminoapps.com/6419/31e241e31d65dd58cb1592419f11d2af265522fa_00.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .paragraph {
+        position: relative;
+        color: white;
+        margin: 50px;
+        
+    }
+
+    .p-1, .p-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background: gray;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        border: solid white 1px;
+        height: 100%;
+        width: 100%;
+    } 
+
+    .image {
+        background-image: url('https://mycollectorsoutpost.com/cdn/shop/files/gon-freecss-jajanken-unleashed-hunter-x-hunter-legacy-portrait-art-print1_550x.jpg?v=1689265698');
+        background-repeat: no-repeat;
+        margin: 10px;
+        background-size: contain;
+        width: 50em;
+        height: 30em;
+    }
+    
+
+    .paragraph {
+        color: white;
+        margin: 50px;
+    }  
+
+    .p-2 {
+        display: inline;
+    }
+    .p-1, .p-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: lightblue;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        border: solid white 1px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .image {
+        background-image: url('https://www.giantbomb.com/a/uploads/scale_medium/2/27436/2722697-gon_freecss_2617.jpg');
+        background-repeat: no-repeat;
+        background-size:70%;
+    }
+
+    .paragraph {
+        color: black;
+        margin: 20px;
+    }
+    .p-1 {
+        display: inline;
+    }
+
+    .p-2, .p-3 {
+        display: none;
+    }
+}
+
+.image {
+    width: 80%;
+}
+
+.paragraph {
+    width: 50%;
+}
